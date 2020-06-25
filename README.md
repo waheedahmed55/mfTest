@@ -129,12 +129,12 @@ public interface FileParser {
 
 ```
 
-- CsvParser.java
+- CsvParser.java - 
 - JsonParser.java
 
 # How to Setup & Run the project:-
 
-Run the App From Commandline:
+Run the App From Command line:
 
 - Git clone the project
 - Install java and maven on your PC 
@@ -148,7 +148,7 @@ Run the App From Commandline:
  mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.csv"
 ```
 <p align="center">
-<img width="250" height="250" src="Image/mvnapp.JPG"><br />
+<img width="250" height="250" src="Image/mvnapp.png"><br />
 </p>
 Run the Test
 
@@ -157,7 +157,7 @@ Run the Test
 mvn Test
 ```
 <p align="center">
-<img width="250" height="250" src="Image/mvntest.JPG"><br />
+<img width="250" height="250" src="Image/mvntest.png"><br />
 </p>
 
 Run the App from Eclipse
