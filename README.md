@@ -157,7 +157,7 @@ Run the Test
 mvn Test
 ```
 <p align="center">
-<img width="650" height="350" src="Image/mvntest.png"><br />
+<img width="700" height="350" src="Image/mvntest.png"><br />
 </p>
 
 Run the App from Eclipse
