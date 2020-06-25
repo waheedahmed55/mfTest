@@ -165,29 +165,29 @@ Run the App from Eclipse
 - Open eclipse > go to file > click on import link 
 - After Importing go to Run Configurations > Set Name , Project, & Main Class
 <p align="center">
-<img width="250" height="250" src="Image/runappconfig1.JPG"><br />
+<img width="300" height="300" src="Image/runappconfig1.JPG"><br />
 </p>
 - Go to Arguments and set name of file .json or csv
 <p align="center">
-<img width="250" height="250" src="Image/runappconfig2.JPG"><br />
+<img width="300" height="300" src="Image/runappconfig2.JPG"><br />
 </p>
 - In order to run app
 <p align="center">
-<img width="250" height="250" src="Image/runapp.JPG"><br />
+<img width="300" height="300" src="Image/runapp.JPG"><br />
 </p>
 
 - App Output:
 <p align="center">
-<img width="250" height="250" src="Image/appconsole.JPG"><br />
+<img width="300" height="300" src="Image/appconsole.JPG"><br />
 </p>
 
 Run the Test from Eclipse
 - Go to Run Configurations > Set Name, Project and Test Class
 <p align="center">
-<img width="250" height="250" src="Image/runtestconfig.JPG"><br />
+<img width="300" height="300" src="Image/runtestconfig.JPG"><br />
 </p>
 
 - In order to run test as JUnit
 <p align="center">
-<img width="250" height="250" src="Image/runtest.JPG"><br />
+<img width="300" height="300" src="Image/runtest.JPG"><br />
 </p>
