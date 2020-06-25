@@ -165,11 +165,11 @@ Run the App from Eclipse
 - Open eclipse > go to file > click on import link 
 - After Importing go to Run Configurations > Set Name , Project, & Main Class
 <p align="center">
-<img width="450" height="300" src="Image/runappconfig1.JPG"><br />
+<img width="600" height="300" src="Image/runappconfig1.JPG"><br />
 </p>
 - Go to Arguments and set name of file .json or csv
 <p align="center">
-<img width="450" height="300" src="Image/runappconfig2.JPG"><br />
+<img width="600" height="300" src="Image/runappconfig2.JPG"><br />
 </p>
 - In order to run app
 <p align="center">
