@@ -134,7 +134,7 @@ public interface FileParser {
 
 # How to Setup & Run the project:-
 
-Run the App From Command line:
+*Run the App From Command line:*
 
 - Git clone the project
 - Install java and maven on your PC 
@@ -143,9 +143,9 @@ Run the App From Command line:
 
 ```
  mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.json"
- 
+``` 
  **OR**
- 
+``` 
  mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.csv"
 ```
 <p align="center">
@@ -161,7 +161,7 @@ mvn Test
 <img width="700" height="350" src="Image/mvntest.png"><br />
 </p>
 
-Run the App from Eclipse
+*Run the App from Eclipse*
 - After dowloading/clonning the project we will need to import the project in eclipse IDE.
 - Open eclipse > go to file > click on import link 
 - After Importing go to Run Configurations > Set Name , Project, & Main Class
