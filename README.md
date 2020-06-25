@@ -74,7 +74,6 @@ Assumptions you can make:
 
 *  com.mftest.mftestread.model.User - The model class for each user in the test data set. The POJO of USER fields
 *  com.mftest.mftestread.analyzers: Under this package you will find implementation of 
-
 	* Analyzer.java: This is interface which is implmented by three Analyzer FavouriteFoodAnalyzer.java , BirthMonthsAnalyzer.java & AverageSiblingsAnalyzer.java. 
 	
 ```Java
@@ -83,8 +82,7 @@ Assumptions you can make:
 	public AnalyticsReport analyze(List<User> users);
 }
 ```
-
-	* AnalyticsReport : This is class that builds report once analyzers are done analyzing. 
+	* AnalyticsReport.java : This is class that builds report once analyzers are done analyzing. 
 	
 ```Java
 
