@@ -83,7 +83,7 @@ Assumptions you can make:
 }
 ```
 
-* AnalyticsReport.java : This is class that builds report once analyzers are done analyzing. 
+* *AnalyticsReport.java* : This is class that builds report once analyzers are done analyzing. 
 	
 ```Java
 
@@ -113,13 +113,13 @@ System.out.println(averageSiblings.analyze(users).getReport());
 ```
 * *FavouriteFoodAnalyzer.java* - Is used to generate the favorite food report. When data is passed in from App.java I have created HashMap to store data by iterating over List<User> update the counts . Once Map is built I have converedted it into List to sort by count .
 
-* BirthMonthsAnalyzer.java - Is used to generate the births per month report. When data is passed in from App.java I have created HashMap to store data by iterating over List<User>, during iteration I get Calendar instance based on timestamp from the conversion I get month and then update the counts . Since the Calendar instance returns numeric value representing months I convert the numeric to string .
+* *BirthMonthsAnalyzer.java* - Is used to generate the births per month report. When data is passed in from App.java I have created HashMap to store data by iterating over List<User>, during iteration I get Calendar instance based on timestamp from the conversion I get month and then update the counts . Since the Calendar instance returns numeric value representing months I convert the numeric to string .
 	
-* AverageSiblingsAnalyzer.JAVA - Is used to generate the average siblings report. When data is passed in from App.java I iterate over it and using getSiblings method get value and add into variable and finally divide with number of users/records.
+* *AverageSiblingsAnalyzer.java* - Is used to generate the average siblings report. When data is passed in from App.java I iterate over it and using getSiblings method get value and add into variable and finally divide with number of users/records.
 
 * com.mftest.mftestread.parsers - Under this package you will find the implmentation of:
 
-- FileParser.java : This is interface which is implmented by CsvParser.java and JsonParser.java .
+- *FileParser.java* : This is interface which is implmented by CsvParser.java and JsonParser.java .
 ```Java
 public interface FileParser {
 
@@ -128,8 +128,8 @@ public interface FileParser {
 
 ```
 
-- CsvParser.java - Implmented the parse method using the CSV Parsing utility from apache.commons.csv and passing it the CSV file. Iterate through each CSVRecord, and adding it list of users. The method returns user records.
-- JsonParser.java - Implmented the parse method using fasterxml's object mapper to read the json. Thus reading each line into user list, based on user model. The method returns user records.
+- *CsvParser.java* - Implmented the parse method using the CSV Parsing utility from apache.commons.csv and passing it the CSV file. Iterate through each CSVRecord, and adding it list of users. The method returns user records.
+- *JsonParser.java* - Implmented the parse method using fasterxml's object mapper to read the json. Thus reading each line into user list, based on user model. The method returns user records.
 
 # How to Setup & Run the project:-
 
