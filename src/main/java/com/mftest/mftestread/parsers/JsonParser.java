@@ -13,11 +13,12 @@ import java.util.*;
 public class JsonParser implements FileParser {
 
 	public List<User> parse(File file) throws FileParseException {
-
+		// using fasterxml's object mapper to read the json
 		ObjectMapper mapper = new ObjectMapper();
 
 		List<User> users = new ArrayList<User>();
 		try {
+			// Reading each line into user list, based on user model 
 			users = Arrays.asList(mapper.readValue(file, User[].class));
 		} catch (JsonParseException e) {
 			throw new FileParseException("Error reading file: " + e.getMessage());

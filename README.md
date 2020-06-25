@@ -5,7 +5,6 @@ You will make a small application in a programming language of your choice that 
 ```bash
 ./extractor.sh "${path_to_input_json_or_csv}"
 ```
-mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.json"
 
 Example csv file content:
 
@@ -75,6 +74,7 @@ Solution:
 
 *  com.mftest.mftestread.model.User - The model class for each user in the test data set. The POJO of USER fields
 *  com.mftest.mftestread.analyzers: Under this package you will find implementation of 
+
 - Analyzer.java: This is interface which is implmented by three Analyzer FavouriteFoodAnalyzer.java , BirthMonthsAnalyzer.java & AverageSiblingsAnalyzer.java. 
 ```Java
    public interface Analyzer {
@@ -137,15 +137,28 @@ public interface FileParser {
 Run the App:
 
 - Git clone the project
-- Install java and maven on your PC (give links to installation)
+- Install java and maven on your PC 
 - Put the test data in root folder where the project is cloned in a csv or json file.
-- To get the output run the following command:
---- > Insert the maven command we just did
-
+- To get the output run the following command in projjects root directory wehre pom.xml resides:
+```
+ mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.json"
+ 
+ OR
+ 
+ mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.csv"
+```
+<p align="center">
+<img width="250" height="200" src="Image/mvnapp.JPG"><br />
+</p>
 Run the Test
 
-- To run the application tests: mvn Test
-
+- To run the application tests: 
+```
+mvn Test
+```
+<p align="center">
+<img width="250" height="200" src="Image/mvntest.JPG"><br />
+</p>
 Develop
 
 - Import the maven project in eclipse.
