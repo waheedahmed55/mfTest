@@ -83,7 +83,7 @@ Assumptions you can make:
 }
 ```
 
-* **AnalyticsReport.java** : This is class that builds report once analyzers are done analyzing. 
+* **AnalyticsReport.java** : This class is just the data model for report. Analyzers build the report based on this data model
 	
 ```Java
 
