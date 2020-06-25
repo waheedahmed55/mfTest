@@ -157,7 +157,7 @@ Run the Test
 mvn Test
 ```
 <p align="center">
-<img width="550" height="350" src="Image/mvntest.png"><br />
+<img width="650" height="350" src="Image/mvntest.png"><br />
 </p>
 
 Run the App from Eclipse
@@ -166,7 +166,7 @@ Run the App from Eclipse
 - After Importing go to Run Configurations > Set Name , Project, & Main Class
 
 <p align="center">
-<img width="600" height="300" src="Image/runappconfig1.JPG"><br />
+<img width="650" height="300" src="Image/runappconfig1.JPG"><br />
 </p>
 
 - Go to Arguments and set name of file .json or csv
