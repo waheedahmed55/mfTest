@@ -84,7 +84,7 @@ Assumptions you can make:
 }
 ```
 
-	* AnalyticsReport.java : This is class that builds report once analyzers are done analyzing. 
+	* AnalyticsReport : This is class that builds report once analyzers are done analyzing. 
 	
 ```Java
 
