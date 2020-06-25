@@ -148,7 +148,7 @@ Run the App From Command line:
  mvn exec:java  -Dexec.mainClass=com.mftest.mftestread.App  -Dexec.args="population_sample.csv"
 ```
 <p align="center">
-<img width="550" height="350" src="Image/mvnapp.png"><br />
+<img width="650" height="350" src="Image/mvnapp.png"><br />
 </p>
 Run the Test
 
