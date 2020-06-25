@@ -11,7 +11,11 @@ import com.mftest.mftestread.exceptions.FileParseException;
 import com.mftest.mftestread.model.User;
 import com.mftest.mftestread.parsers.*;
 /**
- * Hello world!
+ * This is main method which starts the analyzing data based on the type of file.
+ * From command line it reads name of file as argument and passed to getParser which returns parser based on extension of file
+ * Based on file extention it will call its parse method to retrieve the data save as List<User>type 
+ * Then this data is passed to three analyzers and using getReport method of AnalyticsReport.java report
+ * is displayed on console.
  *
  */
 public class App 
