@@ -155,7 +155,7 @@ Run the Test
 
 - To run the application tests: 
 ```
-mvn Test
+mvn test
 ```
 <p align="center">
 <img width="700" height="350" src="Image/mvntest.png"><br />
